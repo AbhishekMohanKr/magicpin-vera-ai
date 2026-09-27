@@ -1,0 +1,1 @@
+Updated Magicpin Vera AI project bundle. Includes planner-aware bot.py, composer.py, storage.py, models.py, planner.py, API/counterfactual tests, requirements, Procfile, and README. External credentials and cache files are excluded.
