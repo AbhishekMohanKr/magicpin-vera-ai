@@ -265,7 +265,7 @@ def _unsupported_numeric_claim(
 
 class VeraComposer:
     def __init__(self) -> None:
-        self.api_key = os.getenv("OPENROUTER_API_KEY") or "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"
+        self.api_key = os.getenv("OPENROUTER_API_KEY", "")
         self.model_name = os.getenv("OPENROUTER_MODEL", "openai/gpt-4o-mini")  # or "openai/gpt-4o-mini"
         self.use_mock = True#(
             #not self.api_key
